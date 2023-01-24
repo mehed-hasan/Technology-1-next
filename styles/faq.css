@@ -1,0 +1,41 @@
+  .faq_banner{
+    min-height:414px ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .faq_banner h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 56px;
+/* identical to box height, or 117% */
+
+
+/* Primary Color */
+
+color: #085BD8;
+  }
+
+  .faq_banner p{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #222121;
+
+opacity: 0.6;
+    max-width: 624px;
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+
