@@ -7,7 +7,7 @@
 html {
 }
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif !important;
   position: relative;
 }
 .sortable-handler {
@@ -741,12 +741,14 @@ p.reviwer_rank {
 }
 
 #faq .accordion-button {
-  padding: 18px 0px;
+  padding: 18px 0px !important;
   padding-right: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 36px;
+  background: transparent;
+  box-shadow: none;
 }
 #faq .accordion-body {
   padding: 0px;

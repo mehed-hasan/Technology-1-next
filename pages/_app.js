@@ -1,6 +1,5 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "bootstrap/dist/css/bootstrap.css";
 import { useEffect } from "react";
 import "slick-carousel/slick/slick.css";
 import Footer from "../components/common/Footer";
@@ -12,6 +11,8 @@ import "../styles/service.css";
 import "../styles/solution.css";
 import "../styles/common.css";
 import "../styles/main.css";
+import 'bootstrap/dist/css/bootstrap.min.css' ;
+
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
